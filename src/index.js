@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode> {/*O StrictMode serve para compilar a pagina novamente, para ajudar no site(ele compila duas vezes)*/}
     <App />
 
   </React.StrictMode>
